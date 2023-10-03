@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Codebase') {
+            steps {
+                cleanWs()
+                checkout scm: [$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[credentialsId: 'github-ssh-key', url: 'git@github.com:victoriamvg/Calculadora.git']]]
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'cd src , javac -cp "../lib/junit-4.13.2.jar" AppTest.java App.java'
+            }
+        }
+        stage('Test') {
+            steps{
+                sh 'cd src/ java -jar ../lib/junit-4.13.2.jar -cp "." --select-class AppTest --reports-dir="reports"'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'cd src/ java App'
+            }
+        }
+    }
+}
