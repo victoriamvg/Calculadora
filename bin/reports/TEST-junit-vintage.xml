@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Vintage" tests="0" skipped="0" failures="0" errors="0" time="0" hostname="LAPTOP-FH9TO7J0" timestamp="2023-10-02T20:51:07">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="Cp1252"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="../lib/junit-platform-console-standalone-1.7.0-all.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="C:\Program Files\OpenLogic\jdk-11.0.20.8-hotspot"/>
+<property name="java.io.tmpdir" value="C:\Users\Victoria\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\OpenLogic\jdk-11.0.20.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Victoria\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Victoria\bin;C:\Program Files\OpenLogic\jdk-11.0.20.8-hotspot\bin;C:\Python310\Scripts;C:\Python310;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Calibre2;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\OpenLogic\jdk-11.0.20.8-hotspot\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Victoria\AppData\Local\Microsoft\WindowsApps;C:\Users\Victoria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Victoria\AppData\Roaming\npm;C:\Users\Victoria\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+<property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+<property name="java.runtime.version" value="11.0.20+8-adhoc..jdk11u"/>
+<property name="java.specification.maintenance.version" value="2"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="OpenLogic"/>
+<property name="java.vendor.url" value="https://openlogic.com/"/>
+<property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+<property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+<property name="java.version" value="11.0.20"/>
+<property name="java.version.date" value="2023-07-18"/>
+<property name="java.vm.compressedOopsMode" value="32-bit"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="OpenLogic"/>
+<property name="java.vm.version" value="11.0.20+8-adhoc..jdk11u"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 11"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\OpenLogic\jdk-11.0.20.8-hotspot\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="../lib/junit-platform-console-standalone-1.7.0-all.jar -cp . --select-class AppTest --reports-dir=reports"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="CO"/>
+<property name="user.dir" value="C:\Users\Victoria\Desktop\Automatización\CICD\Calculadora\src"/>
+<property name="user.home" value="C:\Users\Victoria"/>
+<property name="user.language" value="es"/>
+<property name="user.name" value="Victoria"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/Bogota"/>
+<property name="user.variant" value=""/>
+</properties>
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]
+display-name: JUnit Vintage
+]]></system-out>
+</testsuite>
