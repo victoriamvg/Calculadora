@@ -10,17 +10,17 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'cd src , javac -cp "../lib/junit-4.13.2.jar" AppTest.java App.java'
+                bat 'cd src &&  javac -cp "../lib/junit-4.13.2.jar" AppTest.java App.java'
             }
         }
         stage('Test') {
             steps{
-                sh 'cd src/ java -jar ../lib/junit-4.13.2.jar -cp "." --select-class AppTest --reports-dir="reports"'
+                bat 'cd src/ && java -jar ../lib/junit-4.13.2.jar -cp "." --select-class AppTest --reports-dir="reports"'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'cd src/ java App'
+                bat 'cd src/ && java App'
             }
         }
     }
