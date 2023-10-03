@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Codebase') {
             steps {
                 cleanWs()
-                checkout scm: [$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[credentialsId: 'github-ssh-key', url: 'git@github.com:victoriamvg/Calculadora.git']]]
+                checkout scm: [$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/victoriamvg/Calculadora.git']]]
             }
         }
         stage('Build') {
